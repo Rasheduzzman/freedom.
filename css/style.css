@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font-family: 'Istok Web', sans-serif;}
+
+/*Header start*/
+
+.navbar{background-color: #6c4e83;
+		border-top: 3px solid #a997c5;
+		border-bottom:none;
+		opacity: 0.7;
+	    }	
+
+.navbar-brand {height: 75px;
+			   padding:0px 10px 0px 0px;
+			  }
+			  
+.navbar-nav { padding:16px 0px 0px 100px;}
+
+.navbar-default .navbar-nav > li > a {color: #f8f6f9;
+									  text-transform:uppercase;
+									  padding-bottom:22px;
+									  } 
+									  
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover{color: #f8f6f9;										
+										   border-bottom:2px solid #f8e1b4;}
+										   
+/*Header end*/
+
+
+.carousel-indicators {bottom: -7px;
+                     }
+
+/*guidant section start*/
+										   										   
+#guidant{background-color:#FFF;
+		 padding:110px 0px;
+		}
+		
+#guidant h2{margin:0px 0px 55px;
+			color:#775ba3;
+			font-size:40px;
+			font-weight:600;
+			}
+			
+#guidant p{margin:0px 0px 5px;
+		   font-size:23px;
+		   color:#4b3f55;
+		   font-weight:600;
+		  }
+
+
+/*guidant section end*/
+
+/*postérité section start*/
+#postérité{background-color:#fcfcfc;
+		   padding:80px 0px 50px;
+		   border:1px solid #82c5a1;
+		   }
+		   
+#postérité h2{font-size:40px;
+			  font-weight:bold;
+			  color:#7e63a7;
+			  margin-bottom:60px;
+			  }
+			  
+			  
+#postérité img{position:relative;
+			   left:220px;
+			   top:50px;
+			   }
+
+#postérité i{margin-left:120px;
+			 width: 95px;
+			 height: 95px; 
+			 border: 1px solid #4b3f55;
+			 color: #4b3f55;
+			 border-radius: 100%; 
+	         padding: 19px 0px 0px 21px;			 
+	         }
+			   
+			  			  
+#postérité p{margin-top:60px;
+			 font-size:13px;
+			 color:#4b3f55;
+			 font-weight:700;
+			 text-align:justify;
+			}
+			
+#postérité span{font-size:53px;
+			    color:#91c5a9;
+			    font-weight:600;
+			    line-height:34px;}
+		   
+
+/*postérité section end*/
+
+/*Notre Equipe section start*/
+
+#equipe{background-color:#FFF;
+	    padding:110px 0px;}
+		
+#equipe h2{font-size:40px;
+		   font-weight:700;
+	       color:#7e63a7;
+		   margin-bottom:58px;
+		   }
+
+#equipe img{border-bottom:2px solid #7dc59e;}
+
+.thumbnail h4{border-bottom:3px solid #7dc59e;
+			  padding:8px 0px;
+			  color:#7dc59e;	
+			  }
+			  
+.thumbnail h4 > small{color:#7dc59e;}
+
+.thumbnail .caption{padding:0px;}
+
+.thumbnail .caption > p:nth-child(2){color:#4b3f55;
+					                 font-size:12px;								  						             margin:0px;
+						             padding:16px 0px 30px;
+								     }
+					 
+					 
+.caption .btn{border-radius:0px;}
+
+#equipe .thumbnail{border:0px;}
+
+
+/*Notre Equipe section end*/
+
+
+/*Testimonial section start*/
+
+#testimonial h3{font-size:40px;
+			    color:#775ba3;
+				font-weight:bold;
+			    }
+				
+#testimonial h3 span{color:#ff1717;}
+
+#testimonial .clooney{padding:8px;
+					  border:4px solid #91c5a9;
+					 }
+#testimonial #arrow{position:relative;
+					bottom:89px;
+					left:161px;}
+
+
+
+}
+ /*Isotop*/
+ * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background:transparent;
+  border: none;
+  /*border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );*/
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+  color:#00F;
+}
+
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+
+
+
+
+.button:active {border-bottom:1px solid #000;}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }*/
+
+/* ---- isotope ---- */
+
+
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+
+.element-item {
+	padding:0px;}
+  
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+
+.element-item .symbol {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+
+.element-item .number {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.element-item .weight {
+  position: absolute;
+  left: 10px;
+  top: 76px;
+  font-size: 12px;
+}
+
+#isotope-head 					{color:#06F;}
+#portfolio 						{color:#06F;}
+.isotope 						{padding:0px;
+									margin:0px;}
+
+
+
+/*isotop end*/
+
+
+
+
+
+/*PORTFOLIO section end*/
+
+
+/* ==========================================================================
+   Custome Responsive styles.
+   ========================================================================== */
+
+
+@media (min-width: 320px) and (max-width: 480px){
+.navbar{border-bottom:none;}
+.navbar-brand { height: 45px;}
+.navbar-brand > img {height: 35px;
+					 width: 100px;}				                        	
+.carousel-indicators {bottom:10px;}
+									   
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover{margin-right:100px;}
+.carousel-indicators {bottom: -12px;}
+									   
+#postérité img{display:none;}
+
+#testimonial h3{font-size:30px;}
+
+#testimonial #arrow{position:relative;
+					bottom:55px;
+					left:74px;}
+					
+
+					  
+#myCarousel .carousel-indicators{top:280px;}
+					
+
+#testimonial h3 span {font-size: 28px;
+					 }
+					 
+#myCarousel .carousel-indicators{top:280px;
+								 left:70px;
+								 }
+/*#quoteArrow 				{position:relative;
+								bottom:50px;
+								left:30px;}*/
+					 
+#testimonial .clooney{padding:3px;
+					  border:3px solid #91c5a9;
+					 }
+					 
+}
+
+@media (min-width: 768px) and (max-width: 1024px)
+
+{  									   
+									     
+.navbar-brand { height: 70px;}
+									   
+.navbar-nav { padding: 11px 0 0 17px;}
+.navbar-brand > img {height: 35px;
+					width: 100px;}
+						
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover{margin-right:0px;}
+
+.carousel-indicators {bottom:10px;}
+									   									   
+#postérité img{display:none;}
+#postérité i{margin:50px 0px 0px 300px;}
+
+#testimonial #arrow{position:relative;
+					bottom:116px;
+					left:150px;}
+#testimonial .clooney{padding:6px;
+					  border:5px solid #91c5a9;
+					 }
+										 
+										 
+#testimonial h3{margin-bottom:50px;}
+.element-item 			{width:240px;}										 
+}
